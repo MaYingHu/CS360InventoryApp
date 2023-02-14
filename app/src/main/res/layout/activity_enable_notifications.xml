@@ -24,18 +24,6 @@
         android:layout_marginTop="150dp" />
 
     <Button
-        android:id="@+id/addItemButton"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:backgroundTint="#0055EE"
-        android:text="ENABLE NOTIFICATIONS"
-        android:textSize="14sp"
-        app:layout_constraintTop_toBottomOf="@id/notificatoinExplanation"
-        android:layout_marginTop="40dp"
-        android:layout_marginLeft="85dp"
-        android:layout_marginRight="85dp" />
-
-    <Button
         android:id="@+id/cancelButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -46,5 +34,17 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:backgroundTint="#1177DD"
+        android:textColor="#EEEEEE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/notificatoinExplanation"
+        android:layout_marginTop="40dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
