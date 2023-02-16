@@ -18,10 +18,10 @@
             android:name=".enableNotifications"
             android:exported="false" />
         <activity
-            android:name=".inventoryView"
+            android:name=".main.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".login.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

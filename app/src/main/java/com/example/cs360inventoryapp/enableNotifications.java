@@ -1,14 +1,14 @@
-package com.example.projecttwo;
+package com.example.cs360inventoryapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class addItemToInventory extends AppCompatActivity {
+public class enableNotifications extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_item_to_inventory);
+        setContentView(R.layout.activity_enable_notifications);
     }
 }

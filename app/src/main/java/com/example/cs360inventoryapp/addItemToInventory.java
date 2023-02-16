@@ -1,14 +1,14 @@
-package com.example.projecttwo;
+package com.example.cs360inventoryapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class inventoryView extends AppCompatActivity {
+public class addItemToInventory extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inventory_view);
+        setContentView(R.layout.activity_add_item_to_inventory);
     }
 }

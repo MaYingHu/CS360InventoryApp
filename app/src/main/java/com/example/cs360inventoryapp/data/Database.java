@@ -1,4 +1,4 @@
-package com.example.projecttwo;
+package com.example.cs360inventoryapp.data;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.content.ContentValues;
