@@ -1,4 +1,4 @@
-package com.example.projecttwo;
+package com.example.cs360inventoryapp;
 
 import android.content.Context;
 
